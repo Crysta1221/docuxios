@@ -1,5 +1,8 @@
-<div style="text-align: center;">
+<div align="center">
 
 # Docuxios
-**A Nuxt3 Docs Generator**
+**A Modern Nuxt3 Docs Viewer**
 </div>
+
+# About Docuxios
+This app is now developing...
