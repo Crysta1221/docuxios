@@ -29,7 +29,6 @@
               </a>
             </div>
           </div>
-          <router-link class="font-medium text-white/[.8] hover:text-white sm:py-6" to="/plan" exact-active-class="active">Plan</router-link>
           <router-link class="font-medium text-white/[.8] hover:text-white sm:py-6" to="/about" exact-active-class="active">About</router-link>
           <div class="flex items-center gap-x-2 font-medium text-white/[.8] hover:text-white sm:border-s sm:border-white/[.4] sm:my-6 sm:ps-6" style="height:30px;">
             <div class="mt-8 flex items-center w-full -mr-6 justify-center sm:hidden bg-[#1b1b1f]  border border-gray-200 shadow-sm rounded-xl p-4 md:p-5 dark:border-gray-700 dark:text-gray-400 ">
@@ -54,7 +53,7 @@
                 </div>
               </div>
             </div>
-            <div class="hs-dropdown invisible md:visible" data-hs-dropdown-placement="bottom-right" data-hs-dropdown-offset="30">
+            <div class="hs-dropdown invisible sm:visible" data-hs-dropdown-placement="bottom-right" data-hs-dropdown-offset="30">
               <button type="button" class="hs-dropdown-toggle hs-dark-mode group flex items-center text-white/[.8] hover:text-white font-medium  md:-ml-1 md:-mr-2">
                 <Icon class="block" :icon="$colorMode.preference === 'system' ? 'tabler:device-desktop' : ($colorMode.preference === 'light' ? 'tabler:sun-filled' : 'tabler:moon-filled')" width="20" height="20"/>
               </button>
@@ -76,7 +75,7 @@
           </div>
           <div class="sm:hidden mt-4"></div>
           <div class="flex items-center gap-x-2 font-medium text-white/[.8] hover:text-white sm:border-s sm:border-white/[.4] sm:my-6 sm:ps-6" style="height:30px;">
-            <a  href="https://github.com/Crysta1221" target="_blank" class="flex items-center gap-x-2 font-medium text-white/[.8] hover:text-white sm:my-6 sm:ps-6 md:-ml-8">
+            <a  href="https://github.com/Crysta1221" target="_blank" class="flex items-center gap-x-2 font-medium text-white/[.8] hover:text-white sm:my-6 sm:ps-6 sm:-ml-7">
               <Icon icon="bi:github" height="20" width="20"/>
             </a>
           </div>
