@@ -5,6 +5,5 @@
 **A Modern Nuxt3 Docs Viewer**
 </div>
 
-
-# About Docuxios
-This app is now developing...
+## About Docuxios
+DocuxiosはNuxt3で構築されたモダンで使いやすいドキュメントビューアです。
