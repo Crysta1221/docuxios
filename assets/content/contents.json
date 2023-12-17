@@ -19,6 +19,12 @@
     "width":"20",
     "height":"20",
     "link":"/vue"
+  },
+  {
+    "name":"Nuxt.js",
+    "icon":"skill-icons:nuxtjs-dark",
+    "width":"20",
+    "height":"20",
+    "link":"/nuxt"
   }
-  
 ]
