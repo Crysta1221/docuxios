@@ -1,6 +1,8 @@
 <template>
   <Navbar/>
   <main>
-    <ContentDoc class="markdown-body" path="/html" data-theme="light"/>
+    <div class="ml-6 mt-4">
+      <ContentDoc class="markdown-body" path="/html" data-theme="light"/>
+    </div>   
   </main>
 </template>
