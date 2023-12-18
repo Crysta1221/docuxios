@@ -4,28 +4,28 @@
     "icon":"skill-icons:html",
     "width":"20",
     "height":"20",
-    "link":"/html"
+    "link":"/docs/html"
   },
   {
     "name":"JavaScript",
     "icon":"skill-icons:javascript",
     "width":"20",
     "height":"20",
-    "link":"/js"
+    "link":"/docs/js"
   },
   {
     "name":"Vue.js",
     "icon":"skill-icons:vuejs-dark",
     "width":"20",
     "height":"20",
-    "link":"/vue"
+    "link":"/docs/vue"
   },
   {
     "name":"Nuxt.js",
     "icon":"skill-icons:nuxtjs-dark",
     "width":"20",
     "height":"20",
-    "link":"/nuxt"
+    "link":"/docs/nuxt"
   }
   
 ]
