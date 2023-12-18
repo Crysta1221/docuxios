@@ -36,5 +36,10 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: '',
     preference: 'system',
-  }
+  },
+  content: {
+    markdown: {
+      anchorLinks: false
+    }
+  },
 })
