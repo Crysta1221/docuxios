@@ -16,3 +16,13 @@ DocuxiosはNuxt3で構築されたモダンで使いやすいドキュメント�
 Add original anchor-link and supported github-markdown-css
 ### v0.0.1 Beta (2023/11/23)
 Published docuxios
+
+## LICENSE
+このモジュールはMIT LICENSEとして提供されています。詳しいライセンスはlicenseファイルを参照してください。
+
+## 📦Dependencies
+このモジュールは次の依存関係を使用しています。
+
+- Github-Markdown-CSS  
+  `MIT` LICENSE
+- 
