@@ -10,24 +10,15 @@
 const copy = (event) => {
   event.preventDefault();
   let anchorText = event.target.textContent;
+  anchorText = anchorText.replace(/\s|%20/g, '-'); // Replace spaces or %20 with hyphens
   if (/[A-Z]/.test(anchorText)) {
     anchorText = anchorText.toLowerCase();
   }
   const baseUrl = window.location.href.split('#')[0];
   const fullURL = `${baseUrl}#${anchorText}`;
-  navigator.clipboard.writeText(fullURL).then(() => {
-    window.history.pushState({}, '', fullURL); // Change the current URL
-    scrollToElementWithOffset(anchorText, -100);
-  });
+  window.history.pushState({}, '', fullURL); // Change the current URL
+  scrollToElementWithOffset(anchorText, -100);
 }
-
-onMounted(() => {
-  const hash = window.location.hash;
-  if (hash) {
-    const id = hash.replace('#', '');
-    scrollToElementWithOffset(id, -100);
-  }
-});
 
 function scrollToElementWithOffset(id, offset) {
   const element = document.getElementById(id);
