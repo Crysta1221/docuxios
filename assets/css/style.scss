@@ -2,11 +2,19 @@
 @import 'github-markdown.css';
 
 * {
-  font-family: 'Source Code Pro', 'Noto Sans JP', sans-serif;
+  font-family: 'Segoe UI', 'Noto Sans JP', sans-serif;
 }
 
 body {
   @apply bg-white dark:bg-[#0d1117];
+}
+
+.code {
+  font-family: 'Source Code Pro', 'Noto Sans JP', sans-serif;
+}
+
+li {
+  @apply list-disc;
 }
 
 .active {
