@@ -6,7 +6,7 @@
 
       <!-- Title -->
       <div class="max-w-3xl text-center mx-auto">
-        <h1 class="block font-medium text-gray-800 dark:text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+        <h1 class="block font-medium text-gray-800 dark:text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl code">
           Docuxios
         </h1>
       </div>
@@ -84,7 +84,7 @@
     </div>
   </div>
   <!-- End Icon Blocks -->
-  <a id="docs-select" class="flex justify-center text-3xl mt-24 text-gray-800 dark:text-white">Docsを選びましょう</a>
+  <a id="docs-select" class="flex justify-center text-3xl mt-24 text-gray-800 dark:text-white code">Docsを選びましょう</a>
   <!-- Card Section -->
   <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
     <!-- Grid -->
@@ -97,7 +97,7 @@
             <div class="flex items-center">
               <Icon class="h-[2.2rem] w-[2.2rem]" :icon="card.icon"/>
               <div class="ms-3">
-                <h3 class="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
+                <h3 class="code group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                   {{ card.name }}
                 </h3>
               </div>
