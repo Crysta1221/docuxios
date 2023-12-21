@@ -40,11 +40,9 @@ onMounted(() => {
 .markdown {
   margin-top: 24px;
   margin-bottom: 16px;
-  font-weight: var(--base-text-weight-semibold, 600);
   line-height: 1.25;
-  padding-bottom: .3em;
-  font-size: 1.5em;
-  border-bottom: 1px solid var(--color-border-muted);
+  font-weight: var(--base-text-weight-semibold, 600);
+  font-size: 1.25em;
 }
 .markdown a.icon {
   @apply relative cursor-pointer;
