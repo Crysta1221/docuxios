@@ -16,7 +16,7 @@
       </div>
       <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
         <div class="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
-          <router-link class="font-medium text-white/[.8] hover:text-white sm:py-6 code" to="/" exact-active-class="active">Home</router-link>
+          <a class="font-medium text-white/[.8] hover:text-white sm:py-6 code" href="/" exact-active-class="active">Home</a>
           <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
             <button type="button" class="flex items-center w-full text-white/[.8] hover:text-white font-medium code">
               Docs
@@ -29,7 +29,7 @@
               </a>
             </div>
           </div>
-          <router-link class="font-medium text-white/[.8] hover:text-white sm:py-6 code" to="/about" exact-active-class="active">About</router-link>
+          <a class="font-medium text-white/[.8] hover:text-white sm:py-6 code" href="/about" exact-active-class="active">About</a>
           <div class="flex items-center gap-x-2 font-medium text-white/[.8] hover:text-white sm:border-s sm:border-white/[.4] sm:my-6 sm:ps-6" style="height:30px;">
             <div class="mt-8 flex items-center w-full -mr-6 justify-center sm:hidden bg-[#1b1b1f]  border border-gray-200 shadow-sm rounded-xl p-4 md:p-5 dark:border-gray-700 dark:text-gray-400 ">
               <a class="code">Appearance</a>

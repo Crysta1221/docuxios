@@ -90,7 +90,7 @@
     <!-- Grid -->
     <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
       <!-- Dynamic Cards -->
-      <a v-for="card in cards" :key="card.name" :href="card.link"
+      <router-link v-for="card in cards" :key="card.name" :to="card.link"
         class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
         <div class="p-4 md:p-5">
           <div class="flex justify-between items-center">
@@ -107,7 +107,7 @@
             </div>
           </div>
         </div>
-      </a>
+      </router-link>
       <!-- End Dynamic Cards -->
     </div>
     <!-- End Grid -->
